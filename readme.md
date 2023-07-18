@@ -4,3 +4,5 @@ A continuación, usamos git add . para añadir los cambios del archivo al stage.
 Después de este paso, hacemos un git commit para confirmar los cambios realizados. (Recomendable -m "" para describir el cambio que hemos hecho).
 Ahora agregamos el repositorio remoto de GitHub como destino con el comando: git remote add origin urlrepositorio.
 Para terminar, hacemos un git push para subir todos los cambios a GitHub.
+
+Lo que ha ocurrido en el archivo .gitignore ha sido que ninguna de las fotos de retos_2 se ha subido a Github porque el comando * seguido del nombre de carpeta o archivo hace que se omita.
